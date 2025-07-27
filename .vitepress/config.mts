@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "MinecraftConnectTool Docx",
-  description: "MinecraftConnectTool官方文档",
+  description: "一站式 Minecraft 联机工具官方文档，涵盖快速上手、故障排查、API 接入与多平台部署指南，助你轻松实现零门槛跨网段联机",
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/icon/icon.png' }]
   ],
@@ -61,7 +61,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/TencentEdgeOne/pages-templates/tree/main/examples/vitepress-template' }
+      { icon: 'github', link: 'https://github.com/MCZLF' }
     ]
   }
 })
