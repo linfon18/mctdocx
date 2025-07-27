@@ -7,32 +7,6 @@
 .log-box{background:#0d1117;color:#c9d1d9;padding:16px;border-radius:8px;white-space:pre-wrap;font-family:Consolas,Monaco,"Courier New",monospace;max-height:300px;overflow-y:auto}
 </style>
 
-<script setup>
-// 用 JSONP 绕过 CORS：Gitee 支持 ?callback=xxx
-function loadText (url, id) {
-  const cb = 'cb_' + Math.random().toString(36).slice(2)
-  const script = document.createElement('script')
-  script.src = url + '?callback=' + cb
-  window[cb] = txt => {
-    document.getElementById(id).textContent = txt.trim()
-    delete window[cb]
-    script.remove()
-  }
-  script.onerror = () => {
-    document.getElementById(id).textContent = '获取失败，请稍后刷新重试。'
-    script.remove()
-  }
-  document.head.appendChild(script)
-}
-
-onMounted(() => {
-  loadText('https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/version006.txt',  'v-006')
-  loadText('https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/updatelog6',      'log-006')
-  loadText('https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/005/version005',  'v-005')
-  loadText('https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/005/005Updatelog','log-005')
-})
-</script>
-
 ## 🚀 0.0.6 系列（推荐，Win10/11）
 
 - **最新版本号**  
@@ -60,3 +34,29 @@ onMounted(() => {
     <svg width="20" height="20" fill="currentColor"><path d="M5 20h14v-2H5v2zm7-18L5.5 9.5 7 11l5-5v14h2V6l5 5 1.5-1.5L12 2z"/></svg>
     立即下载 0.0.5 LTS
   </a>
+
+<!-- 浏览器端脚本：JSONP 拉取纯文本 -->
+<script>
+(function () {
+  function loadText (url, id) {
+    var cb = 'cb_' + Math.random().toString(36).slice(2)
+    var script = document.createElement('script')
+    script.src = url + '?callback=' + cb
+    window[cb] = function (txt) {
+      document.getElementById(id).textContent = txt.trim()
+      delete window[cb]
+      script.remove()
+    }
+    script.onerror = function () {
+      document.getElementById(id).textContent = '获取失败，请稍后刷新重试。'
+      script.remove()
+    }
+    document.head.appendChild(script)
+  }
+
+  loadText('https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/version006.txt',  'v-006')
+  loadText('https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/updatelog6',      'log-006')
+  loadText('https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/005/version005',  'v-005')
+  loadText('https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/005/005Updatelog','log-005')
+})()
+</script>
