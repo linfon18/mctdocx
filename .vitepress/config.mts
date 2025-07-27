@@ -21,25 +21,25 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '快速开始',
+        text: '联机_快速开始',
         collapsed: true,
         items: [
           { text: '快速联机', link: '/quick-start/quick-start' },
           { text: '常见问题', link: '/quick-start/normalquesion' },
-          { text: '获取支持', link: '/quick-start/quick-start#configuration' }
+          { text: '获取支持', link: '/quick-start/gethelp' }
         ]
       },
       {
-        text: '高级',
+        text: 'MCTLogServer日志收集',
         collapsed: true,
         items: [
-          { text: 'Custom Theme', link: '/advanced/custom-theme' },
-          { text: 'Markdown Extensions', link: '/advanced/markdown-extensions' },
-          { text: 'Code Highlighting', link: '/advanced/code-highlighting' }
+          { text: 'Readme.md', link: '/function/logcollege' },
+          { text: 'Config配置说明', link: '/function/logconfig' },
+          { text: 'Example(C#)', link: '/example/logexample' }
         ]
       },
       {
-        text: 'Deployment',
+        text: 'MCTRoomList',
         collapsed: true,
         items: [
           { text: 'Build for Production', link: '/quick-start/quick-start#build-for-production' },
