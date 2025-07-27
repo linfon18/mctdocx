@@ -34,4 +34,4 @@
 
 ---
 
-<iframe src="https://mcjavao.tttttttttt.top/" width="100%" height="100vh" style="min-height:100vh;border:none;"></iframe># 
+<iframe src="https://mcjavao.tttttttttt.top/" width="100%" height="100vh" style="min-height:100vh;border:none;"></iframe>
