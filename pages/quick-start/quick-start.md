@@ -1,9 +1,10 @@
 # 快速开始
 
-<iframe
-  src="https://mcjavao.tttttttttt.top/"
-  width="100%"
-  height="100%"
-  frameborder="0"
-  style="width:1px; min-width:100%; height:100vh; border:none; overflow:auto;">
-</iframe>
+体验不佳？前往[原地址](https://mcjavao.tttttttttt.top/)查看
+
+<div style="position:relative; height:100vh;">
+  <iframe
+    src="https://mcjavao.tttttttttt.top/"
+    style="position:absolute; inset:0; width:100%; height:100%; border:0;">
+  </iframe>
+</div>
