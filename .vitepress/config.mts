@@ -15,13 +15,13 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Quick Start', link: '/quick-start/quick-start' },
-      { text: 'Examples', link: '/examples/markdown-examples' }
+      { text: '快速开始', link: '/quick-start/quick-start' },
+      { text: 'Github', link: '/examples/markdown-examples' }
     ],
 
     sidebar: [
       {
-        text: 'Quick Start',
+        text: '快速开始',
         collapsed: true,
         items: [
           { text: 'Overview', link: '/quick-start/quick-start' },
@@ -31,7 +31,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Advanced',
+        text: '高级',
         collapsed: true,
         items: [
           { text: 'Custom Theme', link: '/advanced/custom-theme' },
