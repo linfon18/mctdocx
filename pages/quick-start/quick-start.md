@@ -1,66 +1,87 @@
-# MinecraftConnectTool 快速开始指南
+# 快速开始
 
-> 本指南基于官方文档，帮助你 **3 分钟内** 完成首次联机。
----
+此教程将帮助您快速开始联机
 
-## 📦 1. 下载 & 安装
+## Getting Started
 
-| 版本 | 下载地址 | 校验 |
-|---|---|---|
-| Windows | [点此直链](https://github.com/MCZLF/MinecraftConnectTool/releases/latest) | SHA256: `3c5f8b...` |
-| macOS | [点此直链](https://github.com/MCZLF/MinecraftConnectTool/releases/latest) | SHA256: `4a6e2d...` |
-| Linux | [点此直链](https://github.com/MCZLF/MinecraftConnectTool/releases/latest) | SHA256: `9b7f3a...` |
+### 准备工作
 
-> ⚠️ **首次启动需联网** —— 工具会自动拉取 `main` 核心（约 8 MB）。  
-> 若下载失败，点击右上角 **“下载核心”** → 选 **“Gitee 镜像”**。
-
----
-
-## 🎮 2. 主机方（开服）— 30 秒搞定
-
-1. **打开工具** → 点击 **“开启联机房间”**  
-   ![开启房间](images/host-button.png)
-2. 弹出 **提示码**（形如 `DESKTOP-8FT8FO736088`）→ **已自动复制**。
-3. **启动 Minecraft** → 单人游戏 → 进入存档 → **ESC** → **“对局域网开放”** → 得到 **端口号**（如 `50512`）。  
-   ![局域网开放](images/lan-open.png)
-4. 把 **提示码 + 端口号** 发给好友（QQ/微信都行）。
-
----
-
-## 👥 3. 好友方（加入）— 再 30 秒
-
-1. 收到 “提示码 + 端口号” 后，在工具里填写：
-   - 提示码：`DESKTOP-8FT8FO736088`
-   - 端口：`50512`
-2. 点击 **“加入联机房间”** → 得到 **本地地址**（如 `127.0.0.1:64668`）。  
-   ![加入成功](images/join-success.png)
-3. **启动 Minecraft** → 多人游戏 → **直接连接** → 输入 `127.0.0.1:64668` → 完成！
-
----
-
-## 🛠️ 4. 常见问题速查
-
-| 现象 | 一键解决 |
-|---|---|
-| 卡在 “NAT 打洞中” | 双方重启工具 & 游戏，或切换至 **手机热点** |
-| 防火墙拦截 | Windows 搜索 **“允许应用通过防火墙”** → 勾选 `MinecraftConnectTool.exe` 与 `javaw.exe` |
-| 版本不匹配 | 工具与游戏 **均使用最新版**（1.20.4 推荐） |
-
-> 仍有问题？  
-> 📱 QQ 一群 `690625244`（已满） / 二群 `786047120`  
-> 📺 B 站私信 [@linfon18](https://space.bilibili.com/687369563)  
-> 💖 爱发电赞助 [afdian.com/a/linfon18](https://afdian.com/a/linfon18)
-
----
-
-## 🚀 5. 进阶：一键脚本（可选）
+下载MinecraftConnectTool最新版本  
+[DOWNLOADLink/点此下载](https://github.com/MCZLF/MinecraftConnectTool/releases/latest)
 
 ```bash
-# Linux/macOS 一键启动（需 bash）
-curl -fsSL https://raw.githubusercontent.com/MCZLF/scripts/main/start.sh | bash
+# 无需 npm，直接运行可执行文件
+# Windows 双击 MinecraftConnectTool.exe
+# macOS 双击 MinecraftConnectTool.app
+# Linux 终端运行 ./MinecraftConnectTool
 ```
 
----
+### Basic Setup
 
-**祝你联机愉快！**  
-若觉得好用，点个 **Star** ⭐ [GitHub 仓库](https://github.com/MCZLF) 不迷路。
+首次启动会自动下载核心，成功后：
+
+1. 主机点击“开启联机房间”获取提示码  
+2. 进入单人存档 → ESC → “对局域网开放” → 记下端口号  
+3. 将提示码+端口号发给好友
+
+好友端：
+
+1. 输入提示码和端口号 → 点击“加入联机房间”  
+2. 复制生成的 `127.0.0.1:xxxxx` 地址  
+3. Minecraft 多人游戏 → 直接连接该地址即可
+
+### Configuration
+
+如需手动更新核心，可在工具右上角点击“下载核心”。
+
+## Advanced Features
+
+### 自定义端口映射
+
+若默认端口冲突，可在设置中手动指定本地端口范围。
+
+### 网络诊断
+
+工具内置“网络诊断”按钮，一键检测 NAT 类型与延迟。
+
+### 日志查看
+
+点击“打开日志”即可查看实时连接日志，方便排查问题。
+
+## Deployment
+
+### 本地局域网
+
+确保所有玩家处于同一局域网即可直连，无需公网 IP。
+
+### 公网 P2P
+
+工具会自动尝试 NAT 穿透，成功率取决于双方网络环境。
+
+### 云服务器中继
+
+若 P2P 失败，可自建 frp 中继或使用公共中继节点（见群公告）。
+
+## Best Practices
+
+### 文件组织
+
+```
+MinecraftConnectTool/
+├── MinecraftConnectTool.exe   # 主程序
+├── core/                      # 核心文件（自动下载）
+├── logs/                      # 运行日志
+└── config.json                # 用户配置
+```
+
+### 导航结构
+
+- 主界面：一键开启/加入房间  
+- 设置页：端口、日志、更新  
+- 帮助页：常见问题与群链接
+
+### 内容规范
+
+- 开启房间后 **立即** 记录提示码与端口  
+- 建议每次联机前 **重启工具** 以获得最新核心  
+- 遇到连接问题先查看日志，再带截图进群提问
