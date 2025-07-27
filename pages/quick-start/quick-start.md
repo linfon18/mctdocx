@@ -1,5 +1,5 @@
 # 快速开始
-体验不佳？前往[原地址](https://mcjavao.tttttttttt.top)查看
+体验不佳？前往[原地址](http://mcjavao.tttttttttt.top)查看
 
 <style>
 @keyframes neonPulse {
@@ -27,11 +27,11 @@
 </style>
 
 <div style="text-align:center;">
-  <a class="btn-neon-large" href="https://mcjavao.tttttttttt.top/" target="_blank">
+  <a class="btn-neon-large" href="http://mcjavao.tttttttttt.top/" target="_blank">
     🚀 点击跳转
   </a>
 </div>
 
 ---
 
-<iframe src="https://mcjavao.tttttttttt.top/" width="100%" height="100vh" style="min-height:100vh;border:none;"></iframe>
+<iframe src="http://mcjavao.tttttttttt.top/" width="100%" height="100vh" style="min-height:100vh;border:none;"></iframe>
