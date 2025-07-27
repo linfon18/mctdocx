@@ -8,22 +8,30 @@
 </style>
 
 ## 🚀 0.0.6 系列（推荐，Win10/11）
-- **最新版本号** <span id="v-006">加载中…</span>  
+- **最新版本号**  
+  <span id="v-006">加载中…</span>
+
 - <a class="btn-dl" href="https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/006/Latest.exe">
-  <svg width="20" height="20" fill="currentColor"><path d="M5 20h14v-2H5v2zm7-18L5.5 9.5 7 11l5-5v14h2V6l5 5 1.5-1.5L12 2z"/></svg>
-  立即下载 0.0.6
-</a>  
-- **更新日志** <div class="log-box" id="log-006">加载中…</div>
+    <svg width="20" height="20" fill="currentColor"><path d="M5 20h14v-2H5v2zm7-18L5.5 9.5 7 11l5-5v14h2V6l5 5 1.5-1.5L12 2z"/></svg>
+    立即下载 0.0.6
+  </a>
+
+- **更新日志**  
+  <div class="log-box" id="log-006">加载中…</div>
 
 ---
 
 ## 🔧 0.0.5 LTS（仅 Win7）
-- **最新版本号** <span id="v-005">加载中…</span>  
+- **最新版本号**  
+  <span id="v-005">加载中…</span>
+
 - <a class="btn-dl" href="https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/005/Latest.exe">
-  <svg width="20" height="20" fill="currentColor"><path d="M5 20h14v-2H5v2zm7-18L5.5 9.5 7 11l5-5v14h2V6l5 5 1.5-1.5L12 2z"/></svg>
-  立即下载 0.0.5 LTS
-</a>  
-- **更新日志** <div class="log-box" id="log-005">加载中…</div>
+    <svg width="20" height="20" fill="currentColor"><path d="M5 20h14v-2H5v2zm7-18L5.5 9.5 7 11l5-5v14h2V6l5 5 1.5-1.5L12 2z"/></svg>
+    立即下载 0.0.5 LTS
+  </a>
+
+- **更新日志**  
+  <div class="log-box" id="log-005">加载中…</div>
 
 <script setup>
 import { onMounted } from 'vue'
