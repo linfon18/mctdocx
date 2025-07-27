@@ -25,7 +25,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '快速联机', link: '/quick-start/quick-start' },
-          { text: '常见问题', link: '/quick-start/quick-start#installation' },
+          { text: '常见问题', link: '/quick-start/normalquestion' },
           { text: '获取支持', link: '/quick-start/quick-start#configuration' }
         ]
       },
