@@ -12,6 +12,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   cleanUrls: true,
   themeConfig: {
+    logo: '/icon/logo.png'  ,   
     // https://vitepress.dev/reference/default-theme-config
     outline: {
       level: [1, 3],    // 显示 h1 到 h3 级别的标题
