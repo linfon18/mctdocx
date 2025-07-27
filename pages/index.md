@@ -3,20 +3,20 @@
 layout: home
 
 hero:
-  name: "vitepress-template"
-  text: "A starter template for VitePress"
-  tagline: My great project tagline
+  name: "MinecraftConnectTool Docx"
+  text: "MCT帮助文档"
+  tagline: 用户交流群:690625244
   actions:
     - theme: brand
-      text: Let's Begin
+      text: 开始吧
       link: /quick-start/quick-start
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: P2PMode
+    details: 基于OpenP2P的高速不限速的联机模式
+  - title: CandyMode
+    details: 基于Candy的组网联机模式
+  - title: EasyTierMode/ZTLobby（测试中/维护中）
+    details: 基于EasyTier/ZeroTier的组网方案联机
 ---
 
