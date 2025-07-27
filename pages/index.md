@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "MinecraftConnectTool Docx"
+  name: "MinecraftConnectTool_Docx"
   text: "MCT帮助文档"
   tagline: 用户交流群:690625244
   actions:
