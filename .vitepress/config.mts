@@ -12,7 +12,7 @@ head: [
   ignoreDeadLinks: true,
   cleanUrls: true,
   themeConfig: {
-    logo: '/icon/logo.png'  ,   
+    logo: '/favicon.ico'  ,   
     // https://vitepress.dev/reference/default-theme-config
     outline: {
       level: [1, 3],    // 显示 h1 到 h3 级别的标题
