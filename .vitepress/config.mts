@@ -4,9 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "MinecraftConnectTool Docx",
   description: "MinecraftConnectTool官方文档",
-  head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }]
-  ],
   srcDir: 'pages',
   outDir: 'dist',
   ignoreDeadLinks: true,
