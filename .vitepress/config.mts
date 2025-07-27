@@ -5,7 +5,7 @@ export default defineConfig({
   title: "MinecraftConnectTool Docx",
   description: "MinecraftConnectTool官方文档",
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/icon.png' }]
+    ['link', { rel: 'icon', type: 'image/png', href: '/icon/icon.png' }]
   ],
   srcDir: 'pages',
   outDir: 'dist',
@@ -19,7 +19,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: '快速开始', link: '/quick-start/quick-start' },
-      { text: '下载', link: '/page/download' }
+      { text: '下载', link: '/function/download' }
     ],
 
     sidebar: [
