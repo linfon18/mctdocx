@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "vitepress-template",
-  description: "A starter template for VitePress",
+  title: "MinecraftConnectTool Docx",
+  description: "MinecraftConnectTool官方文档",
   srcDir: 'pages',
   outDir: 'dist',
   ignoreDeadLinks: true,
@@ -16,7 +16,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: '快速开始', link: '/quick-start/quick-start' },
-      { text: 'Github', link: '/examples/markdown-examples' }
+      { text: '下载', link: '/page/download' }
     ],
 
     sidebar: [
@@ -24,10 +24,9 @@ export default defineConfig({
         text: '快速开始',
         collapsed: true,
         items: [
-          { text: 'Overview', link: '/quick-start/quick-start' },
-          { text: 'Installation', link: '/quick-start/quick-start#installation' },
-          { text: 'Basic Setup', link: '/quick-start/quick-start#basic-setup' },
-          { text: 'Configuration', link: '/quick-start/quick-start#configuration' }
+          { text: '快速联机', link: '/quick-start/quick-start' },
+          { text: '常见问题', link: '/quick-start/quick-start#installation' },
+          { text: '获取支持', link: '/quick-start/quick-start#configuration' }
         ]
       },
       {
