@@ -6,12 +6,14 @@
 .btn-dl:hover{transform:scale(1.05)}
 </style>
 
-## 0.0.6（推荐，Win10/11）
-版本号：0.0.6.067  
+## 0.0.6（推荐，Win8/8.1/Win10/11）
 <a class="btn-dl" href="https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/006/Latest.exe">立即下载 0.0.6</a>
 
 ---
 
 ## 0.0.5 LTS（仅 Win7）
-版本号：0.0.5.150  
 <a class="btn-dl" href="https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/005/Latest.exe">立即下载 0.0.5 LTS</a>
+
+---
+
+## 0.0.4（）已停止支持
