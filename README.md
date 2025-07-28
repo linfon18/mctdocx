@@ -1,81 +1,65 @@
-# VitePress Documentation Template
+📦 mctdocx  
+MinecraftConnectTool Docx 文档库，基于 VitePress，支持实时更新。
 
-A clean and customizable VitePress documentation template with a well-organized structure and modern design.
+🎯 特性  
+- 📚 清晰的文档结构  
+- 🎨 可定制主题与样式  
+- 📱 响应式设计  
+- 🔍 全文搜索  
+- 🚀 快速构建与部署  
 
-## Deploy
-Deploy with EdgeOne Pages.
-
-[![EdgeOne Pages deploy](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?template=vitepress-template)
-
-## Features
-
-- 📚 Well-organized documentation structure
-- 🎨 Customized theme and styling
-- 📱 Responsive design
-- 🔍 Full-text search
-- 📦 Easy to deploy
-- 🚀 Fast and lightweight
-
-## Directory Structure
+📁 目录结构  
 
 ```
 .
-├── .vitepress/          # VitePress configuration
-│   ├── config.mts       # Site configuration
-│   └── theme/           # Custom theme files
-│       └── style.css    # Custom styles
-├── pages/              # Documentation pages
-│   ├── index.md        # Home page
-│   ├── quick-start/    # Quick start guide
-│   ├── advanced/       # Advanced topics
-│   ├── deployment/     # Deployment guides
-│   └── examples/       # Examples
-├── dist/               # Build output directory
-├── package.json        # Project dependencies
-├── edgeone.json        # Project deployment parameters
-└── .gitignore         # Git ignore rules
+├── .vitepress/          # VitePress 配置
+│   ├── config.mts
+│   └── theme/
+│       └── style.css
+├── pages/               # 文档页面
+│   ├── index.md
+│   ├── quick-start/
+│   ├── advanced/
+│   ├── deployment/
+│   └── examples/
+├── dist/                # 构建结果
+├── package.json
+├── edgeone.json
+└── .gitignore
 ```
 
-## Getting Started
-
-1. **Installation**
-
+🛠️ 开始使用  
+1. 克隆仓库  
+   
 ```bash
-# Clone the repository
-git clone [your-repo-url]
+   git clone https://github.com/linfon18/mctdocx.git
+   cd mctdocx
+   npm install
+   ```
 
-# Install dependencies
-npm install
-```
-
-2. **Development**
-
+2. 本地开发  
+   
 ```bash
-# Start local development server
-npm run dev
-```
+   npm run dev
+   ```
 
-3. **Build**
-
+3. 构建  
+   
 ```bash
-# Build for production
-npm run build
-```
+   npm run build
+   ```
 
-4. **Preview**
-
+4. 预览构建结果  
+   
 ```bash
-# Preview production build
-npm run preview
-```
+   npm run preview
+   ```
 
-## Documentation Structure
+📖 文档结构  
+- quick-start/：快速开始  
+- advanced/：高级用法  
+- deployment/：部署指南  
+- examples/：示例  
 
-- **Quick Start**: Basic setup and configuration guide
-- **Advanced**: In-depth topics and customization
-- **Examples**: Markdown and API usage examples
-- **Deployment**: Deployment guides for various platforms
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+🤝 贡献  
+欢迎提交 Issue 或 Pull Request。
