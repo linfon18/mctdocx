@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: 开始吧
       link: /quick-start/quick-start
+    - theme: brand
+      text: 获取支持
+      link: /quick-start/gethelp
 
 features:
   - title: P2PMode
