@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "MinecraftConnectTool_Docx"
+  name: "MinecraftConnectTool<br>Docx"
   text: "MCT帮助文档"
   tagline: 用户交流群:690625244|940606962
   actions:
@@ -18,7 +18,5 @@ features:
     details: 基于Candy的组网联机模式
   - title: EasyTier/ZTLobbyMode（测试中/维护中）
     details: 基于EasyTier/ZeroTier的组网方案联机
-  - title: 加入用户群聊
-    details: 690625244|940606962
 ---
 
