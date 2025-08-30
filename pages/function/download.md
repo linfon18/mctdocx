@@ -7,13 +7,13 @@
 </style>
 
 ## 0.0.6（推荐，Win8/8.1/Win10/11）
-<a class="btn-dl" href="https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/006/Latest.exe">GITEE通道_立即下载 0.0.6</a>
+<a class="btn-dl" href="https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/006/Latest.exe">GITEE通道_立即下载 0.0.6</a><br>
 下载失败?尝试加入Q群并在群文件中下载 <a href="/quick-start/gethelp">点击此处跳转</a>
 
 ---
 
 ## 0.0.5 LTS（仅 Win7）
-<a class="btn-dl" href="https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/005/Latest.exe">GITEE通道_立即下载 0.0.5 LTS</a>
+<a class="btn-dl" href="https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/005/Latest.exe">GITEE通道_立即下载 0.0.5 LTS</a><br>
 下载失败?尝试加入Q群并在群文件中下载 <a href="/quick-start/gethelp">点击此处跳转</a>
 
 ---
