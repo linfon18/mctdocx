@@ -8,8 +8,7 @@
 
 ## 0.0.6（推荐，Win8/8.1/Win10/11）
 <a class="btn-dl" href="https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/006/Latest.exe">GITEE通道_立即下载 0.0.6</a><br>
-<script src="/dialog.js"></script>
-<button class="btn-dl" onclick="showVersionDialog()">EO通道_立即下载 0.0.6</button>
+<button class="btn-dl" onclick="!function(){var d=document.createElement('div');d.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:9999';d.innerHTML='<div style=background:#fff;border-radius:8px;min-width:360px;padding:24px;font-family:Segoe UI,system-ui,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.12)><h3 style=margin:0 0 16px;font-size:18px>版本提示</h3><p style=margin:0 0 24px>当前通道的版本可能不是最新版本，下载后请手动检查是否有更新。</p><div style=text-align:right><button class=btn-dl style=margin-right:12px;background:#888 onclick=this.parentElement.parentElement.parentElement.remove()>算了</button><button class=btn-dl onclick=window.open(&quot;https://baidu.com&quot;,&quot;_blank&quot;);this.parentElement.parentElement.parentElement.remove()>是，前往检查</button></div></div>';document.body.appendChild(d)}()">EO通道_立即下载 0.0.6</button>
 下载失败?尝试加入Q群并在群文件中下载 <a href="/quick-start/gethelp">点击此处跳转</a>
 
 ---
