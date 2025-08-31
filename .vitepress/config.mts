@@ -61,7 +61,7 @@ head: [
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/MCZLF' }
+      { icon: 'github', link: 'https://github.com/linfon18/mctdocx' }
     ]
   }
 })
