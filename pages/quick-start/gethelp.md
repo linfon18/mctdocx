@@ -67,6 +67,9 @@
 </style>
 
 </div>
+
+<div style="text-align:center;margin:40px 0;">
+
 <!-- 带脉冲动画的按钮 -->
 <a href="https://qm.qq.com/q/KpxM8LYM82"
    target="_blank"
