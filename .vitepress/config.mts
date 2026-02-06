@@ -62,6 +62,10 @@ head: [
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MCZLF/MinecraftConnectTool' }
-    ]
+    ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2023 MinecraftConnectTool'
+    }
   }
 })
