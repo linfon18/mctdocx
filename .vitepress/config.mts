@@ -62,10 +62,6 @@ head: [
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MCZLF/MinecraftConnectTool' }
-    ],
-    footer: [
-      message: 'MCZLF Studio <a href="https://github.com/MCZLF">GithubLink</a>.',
-      copyright: 'Copyright © 2023-present <a href="https://github.com/MCZLF">Evan You</a>'
     ]
   }
 })
