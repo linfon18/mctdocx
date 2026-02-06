@@ -5,7 +5,7 @@ export default defineConfig({
   title: "MinecraftConnectTool Docx",
   description: "Minecraft 联机工具官方文档，涵盖快速上手、故障排查等指南，助你轻松实现零门槛跨网段联机",
 head: [
-      ['link', { rel: 'icon', href: '/favicon.ico' }]
+      ['link', { rel: 'icon', href: '/icon.svg' }]
     ],
   srcDir: 'pages',
   outDir: 'dist',
@@ -61,7 +61,11 @@ head: [
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/linfon18/mctdocx' }
+      { icon: 'github', link: 'https://github.com/MCZLF/MinecraftConnectTool' }
+    ],
+    footer: [
+      message: 'MCZLF Studio <a href="https://github.com/MCZLF">GithubLink</a>.',
+      copyright: 'Copyright © 2023-present <a href="https://github.com/MCZLF">Evan You</a>'
     ]
   }
 })
