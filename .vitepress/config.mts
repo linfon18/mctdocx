@@ -20,7 +20,8 @@ head: [
     nav: [
       { text: 'Home', link: '/' },
       { text: '快速开始', link: '/quick-start/quick-start' },
-      { text: '下载', link: '/function/download' }
+      { text: '下载', link: '/function/download' },
+      { text: '0.0.7升级', link: '/function/upgrade-007' }
     ],
 
     sidebar: [
@@ -34,6 +35,13 @@ head: [
         ]
       },
       {
+        text: '版本升级指南',
+        collapsed: true,
+        items: [
+          { text: '0.0.7升级指南', link: '/function/upgrade-007' }
+        ]
+      },
+      {
         text: 'MCTLogServer日志收集',
         collapsed: true,
         items: [
@@ -43,12 +51,13 @@ head: [
         ]
       },
       {
-        text: 'MCTRoomList',
+        text: 'MCTRoomListService',
         collapsed: true,
         items: [
-          { text: 'Build for Production', link: '/quick-start/quick-start#build-for-production' },
-          { text: 'GitHub Pages', link: '/quick-start/quick-start#deploy-to-github-pages' },
-          { text: 'Netlify', link: '/quick-start/quick-start#netlify-deployment' }
+          { text: '概述', link: '/view/roomlist-index' },
+          { text: 'API 参考', link: '/view/roomlist-api' },
+          { text: 'Android 接入', link: '/view/roomlist-android' },
+          { text: 'C# 客户端接入', link: '/view/roomlist-csharp' }
         ]
       },
       {
