@@ -1,10 +1,50 @@
 # 下载中心
 
 <style>
-@keyframes neon{0%{box-shadow:0 0 5px #0ff,0 0 10px #0ff,0 0 20px #0ff}50%{box-shadow:0 0 10px #0ff,0 0 20px #0ff,0 0 40px #0ff}100%{box-shadow:0 0 5px #0ff,0 0 10px #0ff,0 0 20px #0ff}}
-.btn-dl{display:inline-block;margin:12px 0;padding:16px 40px;font-size:18px;font-weight:700;color:#fff;background:linear-gradient(135deg,#00f5ff 0%,#0099ff 100%);border:none;border-radius:50px;text-decoration:none;animation:neon 2s infinite;transition:transform .3s}
-.btn-dl:hover{transform:scale(1.05)}
+.btn-dl{display:inline-block;margin:8px 0;padding:14px 32px;font-size:16px;font-weight:600;color:#fff;background:#0099ff;border:none;border-radius:8px;text-decoration:none;transition:all .2s}
+.btn-dl:hover{background:#0077cc;transform:translateY(-2px)}
+.platform-box{background:#f8f9fa;border-radius:12px;padding:20px;margin:16px 0;border:1px solid #e9ecef}
+.platform-box h3{margin-top:0;color:#333}
+.arch-list{margin:12px 0}
+.arch-list a{margin-right:12px;margin-bottom:8px;display:inline-block}
+.btn-guide{display:inline-block;margin:8px 0;padding:10px 24px;font-size:14px;font-weight:600;color:#0099ff;background:#fff;border:2px solid #0099ff;border-radius:8px;text-decoration:none;transition:all .2s}
+.btn-guide:hover{background:#0099ff;color:#fff}
 </style>
+
+## 0.0.7（全新版本，火热测试）
+
+::: warning 重要提示
+0.0.7 版本需要先安装 [.NET 8 Runtime](/function/upgrade-007) 才能运行！
+:::
+
+<a class="btn-guide" href="/function/upgrade-007">📖 启动指引</a>
+
+<div class="platform-box">
+<h3>🪟 Windows</h3>
+<div class="arch-list">
+<a class="btn-dl" href="https://api.mct.mczlf.loft.games/007/Win_X64/Latest.zip">x64 下载</a>
+<a class="btn-dl" href="https://api.mct.mczlf.loft.games/007/Win_X86/Latest.zip">x86 下载</a>
+<a class="btn-dl" href="https://api.mct.mczlf.loft.games/007/Win_Arm64/Latest.zip">ARM64 下载</a>
+</div>
+</div>
+
+<div class="platform-box">
+<h3>🐧 Linux</h3>
+<div class="arch-list">
+<a class="btn-dl" href="https://api.mct.mczlf.loft.games/007/Linux_X64/Latest.zip">x64 下载</a>
+<a class="btn-dl" href="https://api.mct.mczlf.loft.games/007/Linux_Arm64/Latest.zip">ARM64 下载</a>
+</div>
+</div>
+
+<div class="platform-box">
+<h3>🍎 macOS</h3>
+<div class="arch-list">
+<a class="btn-dl" href="https://api.mct.mczlf.loft.games/007/MacOS_Arm64/Latest.zip">Apple Silicon (M1/M2/M3) 下载</a>
+<a class="btn-dl" href="https://api.mct.mczlf.loft.games/007/MacOS_X64/Latest.zip">Intel 下载</a>
+</div>
+</div>
+
+---
 
 ## 0.0.6（推荐，Win8/8.1/Win10/11，Win7提供有限支持）
 <a class="btn-dl" href="https://api.mct.mczlf.loft.games/006/Latest.exe">官方通道_立即下载 0.0.6</a><br>
