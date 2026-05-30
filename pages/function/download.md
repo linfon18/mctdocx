@@ -69,9 +69,8 @@
 ---
 
 ## 0.0.4/0.0.3/0.0.2/0.0.1（已完全停止支持）
-<br>
 <button class="btn-dl" onclick="!function(){var d=document.createElement('div');d.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:9999';d.innerHTML='<div style=background:#fff;border-radius:8px;min-width:360px;padding:24px;font-family:Segoe UI,system-ui,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.12)><h3 style=margin:0 0 16px;font-size:18px>版本提示</h3><p style=margin:0 0 24px>当前版本已完全停止支持,下载后也无法正常联机,您确定要下载吗</p><div style=text-align:right><button class=btn-dl style=margin-right:12px;background:#888 onclick=this.parentElement.parentElement.parentElement.remove()>算了,0.0.7更香</button><button class=btn-dl onclick=window.open(&quot;https://pan.vma.cc/pan/down.php/e48bfb8f9fb3b2374752c38014a9a2d9.exe&quot;,&quot;_blank&quot;);this.parentElement.parentElement.parentElement.remove()>是，我想品鉴MCT历代控制台</button></div></div>';document.body.appendChild(d)}()">0.0.4.213</button><br>
-下载失败?尝试加入Q群并在群文件中下载 <a href="/quick-start/gethelp">点击此处跳转</a>
+下载失败?加群也不一定能下到老版本 <a href="/quick-start/gethelp">点击此处跳转</a>
 
 
 ## 衍生版本（第三方制作 by mcjavao）
