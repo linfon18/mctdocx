@@ -61,11 +61,18 @@
 
 ---
 
-## 0.0.5（即将停止支持）
-<a class="btn-dl" href="https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/005/Latest.exe">官方通道_立即下载 0.0.5(即将停止支持)</a><br>
-<button class="btn-dl" onclick="!function(){var d=document.createElement('div');d.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:9999';d.innerHTML='<div style=background:#fff;border-radius:8px;min-width:360px;padding:24px;font-family:Segoe UI,system-ui,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.12)><h3 style=margin:0 0 16px;font-size:18px>版本提示</h3><p style=margin:0 0 24px>当前通道的版本可能不是最新版本，下载后请手动检查是否有更新。</p><div style=text-align:right><button class=btn-dl style=margin-right:12px;background:#888 onclick=this.parentElement.parentElement.parentElement.remove()>算了</button><button class=btn-dl onclick=window.open(&quot;https://mczlf.loft.games/API/005/Latest.exe&quot;,&quot;_blank&quot;);this.parentElement.parentElement.parentElement.remove()>是，前往检查</button></div></div>';document.body.appendChild(d)}()">EO通道_立即下载 0.0.5 LTS</button><br>
+## 0.0.5（已停止支持）
+<a class="btn-dl" href="https://gitee.com/linfon18/minecraft-connect-tool-api/raw/master/005/Latest.exe">Gitee_0.0.5(已停止支持)</a><br>
+<button class="btn-dl" onclick="!function(){var d=document.createElement('div');d.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:9999';d.innerHTML='<div style=background:#fff;border-radius:8px;min-width:360px;padding:24px;font-family:Segoe UI,system-ui,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.12)><h3 style=margin:0 0 16px;font-size:18px>版本提示</h3><p style=margin:0 0 24px>当前版本已完全停止支持,下载后也无法正常联机,您确定要下载吗</p><div style=text-align:right><button class=btn-dl style=margin-right:12px;background:#888 onclick=this.parentElement.parentElement.parentElement.remove()>算了,0.0.7更香</button><button class=btn-dl onclick=window.open(&quot;https://mczlf.loft.games/API/005/Latest.exe&quot;,&quot;_blank&quot;);this.parentElement.parentElement.parentElement.remove()>是，我想品鉴MCT历代UI</button></div></div>';document.body.appendChild(d)}()">EO通道_ 0.0.5.181 不受支持</button><br>
 下载失败?尝试加入Q群并在群文件中下载 <a href="/quick-start/gethelp">点击此处跳转</a>
 
 ---
 
-## 0.0.4（已停止支持）
+## 0.0.4/0.0.3/0.0.2/0.0.1（已完全停止支持）
+<br>
+<button class="btn-dl" onclick="!function(){var d=document.createElement('div');d.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:9999';d.innerHTML='<div style=background:#fff;border-radius:8px;min-width:360px;padding:24px;font-family:Segoe UI,system-ui,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.12)><h3 style=margin:0 0 16px;font-size:18px>版本提示</h3><p style=margin:0 0 24px>当前版本已完全停止支持,下载后也无法正常联机,您确定要下载吗</p><div style=text-align:right><button class=btn-dl style=margin-right:12px;background:#888 onclick=this.parentElement.parentElement.parentElement.remove()>算了,0.0.7更香</button><button class=btn-dl onclick=window.open(&quot;https://pan.vma.cc/pan/down.php/e48bfb8f9fb3b2374752c38014a9a2d9.exe&quot;,&quot;_blank&quot;);this.parentElement.parentElement.parentElement.remove()>是，我想品鉴MCT历代控制台</button></div></div>';document.body.appendChild(d)}()">0.0.4.213</button><br>
+下载失败?尝试加入Q群并在群文件中下载 <a href="/quick-start/gethelp">点击此处跳转</a>
+
+
+## 衍生版本（第三方制作 by mcjavao）
+<a class="btn-dl" href="https://pan.vma.cc/pan/down.php/2e64f74708842ea620ef5d8f5aed9e32.exe">MConnect Tool_1.0.2.0(已停止支持)</a><br>
