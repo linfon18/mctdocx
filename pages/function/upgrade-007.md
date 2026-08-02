@@ -86,7 +86,7 @@
 
 <div class="step-box">
 <h3>🐧 Linux 用户</h3>
-<p>切换到终端，cd 到当前目录，执行以下命令：</p>
+<p>切换到终端，cd 到当前目录(cd 目录)后，执行以下命令：</p>
 <div class="code-block">
 <span class="comment"># 赋予执行权限</span><br>
 <span class="command">chmod +x MinecraftConnectTool</span><br><br>
@@ -94,14 +94,21 @@
 <span class="command">./MinecraftConnectTool</span>
 </div>
 </div>
-
+<p>或者还有一种方法,在Ubuntu上测试成功：</p>
+<div class="code-block">
+<span class="comment">1.下载后解压,获得MCT本体</span><br>
+<span class="command">2.右键->属性->作为程序运行 把这个选项勾选上</span><br><br>
+<span class="comment">3.直接右键->运行 即可启动</span><br>
+<span class="command">./MinecraftConnectTool</span>
+</div>
+</div>
 ---
 
 ### 3. Mac 用户启动
 
 <div class="step-box">
 <h3>🍎 macOS 用户</h3>
-<p>启动终端，cd 到当前目录，执行以下命令：</p>
+<p>启动终端，cd 到当前目录(cd 目录)后，执行以下命令：</p>
 <div class="code-block">
 <span class="comment"># 赋予执行权限</span><br>
 <span class="command">chmod +x MinecraftConnectTool</span><br><br>
@@ -112,7 +119,7 @@
 <span class="comment"># 启动程序</span><br>
 <span class="command">./MinecraftConnectTool</span>
 </div>
-<p><em>注：后续版本将变更为 .dmg 直装模式，简化安装流程。</em></p>
+<p><em>注：.app文件可在GithubAction上获取,该选项并未经过任何测试,不能保证一定能用</em></p>
 </div>
 
 ---
