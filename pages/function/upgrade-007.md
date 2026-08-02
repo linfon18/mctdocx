@@ -98,10 +98,9 @@
   <p>或者还有一种方法，在 Ubuntu 上测试成功：</p> 
 
   <div class="code-block"> 
-    <span class="comment">1. 下载后解压，获得 MCT 本体</span><br> 
+    <span class="commend">1. 下载后解压，获得 MCT 本体</span><br> 
     <span class="command">2. 右键 -> 属性 -> 作为程序运行，把这个选项勾选上</span><br><br> 
-    <span class="comment">3. 直接右键 - 运行即可启动</span><br> 
-    <span class="command">./MinecraftConnectTool</span> 
+    <span class="command">3. 直接右键 - 运行即可启动</span> 
   </div> 
 </div>
 
